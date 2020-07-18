@@ -1,8 +1,3 @@
----
-title: How to Debug Bash with VSCode
-permalink: /
----
-
 # How to Debug Bash with VSCode
 
 ## Summary

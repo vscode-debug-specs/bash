@@ -1,1 +1,7 @@
+destination: VS Code debug specs - bash
 theme: jekyll-theme-cayman
+gems:
+  - jekyll-readme-index
+readme_index:
+  enabled: true
+  remove_originals: false
