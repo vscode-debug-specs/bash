@@ -1,4 +1,4 @@
-# How to Debug Bash with VSCode
+# How to Debug Bash with VS Code
 
 ## Summary
 
