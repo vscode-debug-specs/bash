@@ -17,46 +17,48 @@
 ## Spec
 
 - OS
-  _ ✅ MacOS
-  _ ✅ Windows \* ✅ Linux
+  - ✅ MacOS
+  - ✅ Windows
+  - ✅ Linux
 - Break Point
-  _ ✅ break point
-  _ ❌ condition break point : able to set, but not working \* ❌ function breakpoint
+  - ✅ break point
+  - ❌ condition break point : able to set, but not working
+  - ❌ function breakpoint
 - Step Execution
-  _ ✅ Step Over
-  _ ✅ Step Into
-  _ ✅ Step Out
-  _ ✅ Continue
-  _ ❌ Step Back
-  _ ❌ Move To \* ❌ Pause
-- Variables
-  _ ✅ variables views
-  _ ✅ watch variables
-- Call Stack \* ✅ call stack
+  - ✅ Step Over
+  - ✅ Step Into
+  - ✅ Step Out
+  - ✅ Continue
+  - ❌ Step Back
+  - ❌ Move To
+  - ❌ Pause
+- Variables>
+  - ✅ variables views
+  - ✅ watch variables
+- Call Stack
+  - ✅ call stack
 - Evaluation
-  _ ✅ eval expression to show variables
-  _ ✅ eval expression to change variables
+  - ✅ eval expression to show variables
+  - ✅ eval expression to change variables
 - Type of Execution
-  _ ✅ debug executable package
-  _ ❌ remote debugging
+  - ✅ debug executable package
+  - ❌ remote debugging
 
 ## Instruction
 
 ### MacOS
 
 ```
-brew install bashdb
+brew install bash
 ```
 
-### Linux(Ubuntu 18.04)
+### Linux(Ubuntu 20.04)
 
-Ubuntu 18.04 don't have bashdb package. You need build from source.
-
-see https://github.com/rogalmic/vscode-bash-debug/issues/67
+no additional installation
 
 ### Windows
 
-- [install wsl Ubuntu18.04](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q)
+- [install wsl Ubuntu20.04](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q)
 - see Linux instruction
 
 ## debugging executable file
