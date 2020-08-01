@@ -1,0 +1,13 @@
+{
+  "name": "Ubuntu",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "focal" }
+  },
+
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+
+  "extensions": ["rogalmic.bash-debug", "foxundermoon.shell-format"]
+}
