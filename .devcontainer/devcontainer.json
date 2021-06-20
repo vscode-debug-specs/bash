@@ -9,5 +9,9 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
 
-  "extensions": ["rogalmic.bash-debug", "foxundermoon.shell-format"]
+  "extensions": [
+    "mads-hartmann.bash-ide-vscode",
+    "rogalmic.bash-debug",
+    "foxundermoon.shell-format"
+  ]
 }
